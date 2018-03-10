@@ -1,11 +1,11 @@
 var slideshow = $("#slideshow")
 var image = $("#nowSlide");
 
-var numOfImages = 4;
+var numOfImages = 5;
 var imageIndex = 1;
 
-var width = 400;
-var height = 300;
+var width = 800;
+var height = 600;
 
 function changeImage() {
     slideshow.css({"background-image" : "url(images/slideshow/" + imageIndex + ".jpg)"});
@@ -20,7 +20,7 @@ function changeImage() {
     
 }
 window.onload = function() {
-    slideshow.css({"width": width, "height": height, "background-size" : width + "px " + height + "px", "background-repeat" : "no-repeat"});
+    slideshow.css({"width": width, "height": height, "background-size" : width + "px " + height + "px"});
     image.attr("width", width + "px");
     image.attr("height", height + "px");
     image.css({"position" : "absolute"})

@@ -7,6 +7,7 @@ Dark Bluish Purple: #020C42
 */
 
 header {
+    z-index: 5;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +16,7 @@ header {
     background: #E36731;
     display: grid;
     grid-template-areas: "logo title" "logo nav";
-    grid-template-columns: 158px auto;
+    grid-template-columns: 10% 89%;
     
 }
 

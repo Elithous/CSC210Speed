@@ -5,3 +5,57 @@ Pale Blue: #6480C5
 Our Logo Blue: #1232A9
 Dark Bluish Purple: #020C42
 */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 5px 10px 5px;
+    width: 100%;
+    background: #E36731;
+    display: grid;
+    grid-template-areas: "logo title" "logo nav";
+    grid-template-columns: 158px auto;
+    
+}
+
+#title {
+    grid-area: title;
+    text-align: center;
+}
+
+#logo {
+    width: 158px;
+    grid-area: logo;
+}
+
+#topnav {
+    text-align: center;
+    grid-area: nav;
+    display: flex;
+}
+
+#topnav a {
+    margin: 0 2px;
+    padding: 3px;
+    background: #6480C5;
+    font-size: 1.2em;
+    text-decoration: none;
+    flex: 1;
+    color: #FFF;
+}
+
+#title h1 {
+    font-size: 3.2em;
+    margin: 0;
+}
+
+#topnav a:hover {
+    background: #1232A9;
+}
+
+body {
+    margin-top: 170px;
+    background: #1232A9;
+    color: #FFF;
+}

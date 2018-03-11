@@ -12,7 +12,12 @@ function loadData() {
 
 function loadComplete(evt) {
     map = JSON.parse(request.responseText);
-    console.loadComplete(map);
-    $("#googleMap").html(map.formatted_address);
+    console.log(map);
+    $("#address").html(map.results[0].address_components[0].long_name+" ");
+    $("#address").append(map.results[0].address_components[1].long_name+" ");
+    $("#city").html(map.results[0].address_components[3].long_name+", ");
+    $("#city").append(map.results[0].address_components[5].long_name+" ");
+
+    
 
 }

@@ -1,0 +1,31 @@
+
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+#buildingPicture{
+    text-align: center;
+    flex:1;
+}
+#contactInfo{
+    text-align: center;
+    flex:1;
+}
+#contactPageTitle{
+    text-align: center;
+}
+#contactInfo img{
+    width: 20px;
+}
+#contactInfo p{
+    justify-content: center;
+    padding: auto;
+}
+#contactInfo h1{
+    font-size: 2.5em;
+}
+iframe{
+    margin: 30px;
+}
+
+

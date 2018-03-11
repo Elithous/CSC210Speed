@@ -3,35 +3,50 @@
     <head>
         <title>Contact Us</title>
         <link href='style.css' rel='stylesheet' />
+        <link href='contact.css' rel='stylesheet' />
+        <link href="images/SpeedLogoIcon.png" rel="icon" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="scripts/contact.js"></script>
     </head>
     <body>
         <header>
-            <div id="logo">
-                <img src="images\SpeedLogo2.png" />
-            </div>
-            <div id="title">
-                <h1>Speed</h1>
-                <p>Traveling without the hassle!</p>
-            </div>
-        </header>
+                <div id="logo">
+                    <img src="images\SpeedLogo3.png" />
+                </div>
+                <nav id="topnav">
+                    <a href="index.html"><div class="navlink">Home</div></a>
+                    <a href="about.html"><div class="navlink">About Us</div></a>
+                    <a href="productSpecs.html"><div class="navlink">Product Specs</div></a>
+                    <a href="contact.html"><div class="navlink">Contact Us</div></a>
+                </nav>
+                <div id="title">
+                    <h1>Speed</h1>
+                    <p>Traveling without the hassle!</p>
+                </div>
+            </header>
         <div id="contact" class="content">
-            <div id="contactPageTitle">
-                <h1>Contact</h1>
-                <p>Got any questions? Get in contact with us!</p>
+            <div id="buildingPicture">
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAGB65kaN0CckAIeRwMwHCH4IL0eJ7k4E4&q=143+Main+Steet,Salt+Lake+City,UT" allowfullscreen>
+                </iframe>
             </div>
-            <div id="contactContent">
-                <div id="contactInfo">
-                    <p>Speed HeadQuarters <br /> Salt Lake City, UT</p>
-                    <p>(801)965-3419</p>
-                    <p>questions@speed.com</p>
+            <div id="contactInfo">
+                <div id="contactPageTitle">
+                    <h1>Contact</h1>
+                    <p>Got Questions? Get in contact with us!</p>
                 </div>
-                <div id="googleMap">
-
-                </div>
+                <h2>Speed Headquarters</h2>
+                <h3 id="address"></h3>
+                <h3 id="city"></h3>
+                <p><img src="images\contactIcons\phone.png">(801)965-3419</p>
+                <p><img src="images\contactIcons\email.png">questions@speed.com</p>
+                <p><img src="images\contactIcons\twitter.png">@speedTravel</p>
+                <p><img src="images\contactIcons\instagram.png">speedTravel</p>
+                <p><img src="images\contactIcons\snapchat.png">speedTravel</p>
             </div>
-            
         </div>
         <footer>
             <p>Copyright &copy;2018 by Speed</p>

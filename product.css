@@ -12,9 +12,17 @@
     grid-area: dis;
 }
 
-#specs{
+#specs {
     grid-area: specs;
     margin: 10px;
+
+    border: 1px solid #FFF;
+    border-spacing: 0px;
+}
+
+#specs td{
+    padding: 2px;
+    border: 1px solid #FFF;
 }
 
 #text1{

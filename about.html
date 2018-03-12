@@ -2,9 +2,24 @@
 <html>
     <head>
         <title>About Us</title>
-        <link href='main.css' rel='stylesheet' />
+        <link href='style.css' rel='stylesheet' />
     </head>
     <body>
+        <header>
+                <div id="logo">
+                        <img src="images\SpeedLogo3.png" />
+                    </div>
+            <nav id="topnav">
+                    <a href="index.html"><div class="navlink">Home</div></a>
+                    <a href="about.html"><div class="navlink">About Us</div></a>
+                    <a href="productSpecs.html"><div class="navlink">Product Specs</div></a>
+                    <a href="contact.html"><div class="navlink">Contact Us</div></a>
+                </nav>
+                <div id="title">
+                        <h1>Speed</h1>
+                        <p>Traveling without the hassle!</p>
+                    </div>
+            </header>
         <div id="infoGeneral">
             <p>
                 Have you ever had to take a trip that took days of driving or hours on a flight that you would rather not have had to 
@@ -27,6 +42,9 @@
                 safety measures to reduce the 3% mortality rate.
             </p>
         </div>
+        <canvas id="myCanvas" width="300" height="300" style="border:1px solid #dddddd;">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
         <div id="Legal">
             <p>
                 Many wavers and release forms must be signed prior to granting services, and since clients are in a comatose state there may be some sickness
@@ -34,5 +52,9 @@
                 clients use our services understanding the risks. Results may vary and conditions apply.
             </p>
         </div>
+        <footer>
+                <script src="scripts/about.js"></script>
+                <p>Copyright &copy;2018 by Speed</p>
+            </footer>
     </body>
 </html>

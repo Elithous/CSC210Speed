@@ -4,8 +4,31 @@
 
 #content {
     display: grid;
+    grid-template-areas: "specs t1" "dis dis" "t2 t2" "t3 t3";
 }
 
 #disclaimer {
     font-size: 8px;
+    grid-area: dis;
+}
+
+#specs{
+    grid-area: specs;
+    margin: 10px;
+}
+
+#text1{
+    grid-area: t1;
+}
+
+#text2{
+    grid-area: t2;
+}
+
+#text3{
+    grid-area: t3;
+}
+
+p{
+    margin: 10px;
 }

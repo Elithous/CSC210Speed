@@ -30,5 +30,8 @@ iframe{
 #headquarters p{
     cursor: pointer;
 }
+#contactInfo img{
+    vertical-align: text-top;
+}
 
 

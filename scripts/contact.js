@@ -50,9 +50,11 @@ function loadComplete(evt) {
         if(pClicked){
             pClicked=!pClicked;
             $("#phone").css("font-size","2.5em");
+            $("#phone img").css("width","50px");
         } else{
             pClicked=!pClicked;
             $("#phone").css("font-size","1em");
+            $("#phone img").css("width","20px");
         }
     });
     var eClicked = true;
@@ -60,9 +62,11 @@ function loadComplete(evt) {
         if(eClicked){
             eClicked=!eClicked;
             $("#email").css("font-size","2.5em");
+            $("#email img").css("width","50px");
         } else{
             eClicked=!eClicked;
             $("#email").css("font-size","1em");
+            $("#email img").css("width","20px");
         }
     });
     var tClicked = true;
@@ -70,9 +74,11 @@ function loadComplete(evt) {
         if(tClicked){
             tClicked=!tClicked;
             $("#twitter").css("font-size","2.5em");
+            $("#twitter img").css("width","50px");
         } else{
             tClicked=!tClicked;
             $("#twitter").css("font-size","1em");
+            $("#twitter img").css("width","20px");
         }
     });
     var iClicked = true;
@@ -80,9 +86,11 @@ function loadComplete(evt) {
         if(iClicked){
             iClicked=!iClicked;
             $("#instagram").css("font-size","2.5em");
+            $("#instagram img").css("width","50px");
         } else{
             iClicked=!iClicked;
             $("#instagram").css("font-size","1em");
+            $("#instagram img").css("width","20px");
         }
     });
     var sClicked = true;
@@ -90,9 +98,11 @@ function loadComplete(evt) {
         if(sClicked){
             sClicked=!sClicked;
             $("#snapchat").css("font-size","2.5em");
+            $("#snapchat img").css("width","50px");
         } else{
             sClicked=!sClicked;
             $("#snapchat").css("font-size","1em");
+            $("#snapchat img").css("width","20px");
         }
     });
 }

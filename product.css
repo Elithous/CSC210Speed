@@ -1,3 +1,11 @@
 #specs tr:hover {
     background: #6480C5;
 }
+
+#content {
+    display: grid;
+}
+
+#disclaimer {
+    font-size: 8px;
+}

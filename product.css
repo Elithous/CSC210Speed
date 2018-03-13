@@ -3,8 +3,9 @@
 }
 
 #content {
-    display: grid;
-    grid-template-areas: "specs t1" "dis dis" "t2 t2" "t3 t3";
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 80px 20px;
 }
 
 #disclaimer {

@@ -1,0 +1,12 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+canvas{
+    margin: 15px;
+}
+#textInfo{
+    margin: 15px;
+}
+
